@@ -1,0 +1,14 @@
+## 🔄 Actualización Fase Remedial: Módulo de Accesibilidad (WCAG)
+
+### Descripción de la Innovación
+En esta fase remedial, el proyecto ha pivotado para atender a un sector crítico de la odontología: el adulto mayor. Se ha implementado un **Panel de Accesibilidad** que permite personalizar la interfaz para usuarios con visibilidad reducida.
+
+### Nuevas Características Técnicas
+* **JavaScript DOM Manipulation:** Se agregó lógica para cambiar clases CSS en tiempo real (`body.classList.toggle`).
+* **Variables CSS (Custom Properties):** Uso de variables `--bg-color` y `--text-color` para facilitar el cambio instantáneo de temas (Claro/Alto Contraste).
+* **Unidades Relativas:** Refactorización de `px` a `rem` para soportar zoom de texto sin desbordamientos.
+
+### Cómo probar la innovación
+1.  Abre el archivo `index.html`.
+2.  Localiza el botón flotante (icono de accesibilidad ♿) en la esquina superior.
+3.  Prueba los botones: "Aumentar Texto" y "Alto Contraste".
