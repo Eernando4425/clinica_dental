@@ -1,0 +1,71 @@
+# Proyecto NEXO: Clínica Dental [picsso]
+
+**Autor:** [Tu Nombre Completo]
+**Especialidad:** [Tu carrera, ej. Desarrollo de Software Multiplataforma]
+**Institución:** Universidad Politécnica de Santa Rosa Jáuregui (UPSRJ)
+**Materia:** ITIID - Cuatrimestre 3
+
+---
+
+## 1. Contexto y Motivación
+¿Por qué este proyecto?
+La mayoría de los consultorios dentales pequeños en mi localidad gestionan sus citas de manera manual (papel o llamadas telefónicas), lo que ocasiona pérdida de pacientes fuera del horario laboral y desorganización.
+Este proyecto nace de la necesidad de **digitalizar el primer punto de contacto** entre el dentista y el paciente, ofreciendo una solución web accesible y moderna.
+
+**Problema que resuelve:**
+* Falta de visibilidad de los servicios ofrecidos.
+* Dependencia del teléfono para agendar citas.
+* Ausencia de presencia digital profesional.
+
+## 2. Propuesta y Objetivos
+**Objetivo General:**
+Desarrollar y desplegar una "Landing Page" (Página de Aterrizaje) funcional para la Clínica Dental [Nombre], que permita a los usuarios conocer los tratamientos y solicitar una cita mediante un formulario web.
+
+**Alcance del MVP (Producto Mínimo Viable):**
+* **Interfaz Informativa:** Secciones de Inicio, Nosotros y Servicios.
+* **Sistema de Contacto:** Formulario con validación de datos (Frontend) para solicitar citas.
+* **Diseño Responsivo:** Adaptable a móviles y escritorio.
+
+> **Nota sobre el alcance:** Originalmente se planeó un módulo de *Login de Pacientes* para ver historiales médicos. Sin embargo, tras analizar la viabilidad y los requisitos de seguridad de datos en el tiempo disponible (3 semanas), se decidió acotar el alcance al sitio público para garantizar un producto terminado y libre de errores críticos.
+
+## 3. Metodología y Tecnologías
+¿Cómo se construyó?
+
+**Stack Tecnológico:**
+* **HTML5:** Estructura semántica del sitio.
+* **CSS3:** Estilizado personalizado usando *Flexbox* y variables CSS para la paleta de colores clínicos (Azul `#007bff` y Blanco).
+* **JavaScript (Vanilla):** Lógica para la validación del formulario de contacto y manipulación del DOM.
+* **Herramientas de IA:** Se utilizó ChatGPT/Claude para la generación de *boilerplate* inicial y corrección de estilos CSS, así como para la redacción de textos comerciales.
+
+**Proceso de Desarrollo:**
+1.  **Semana 1 (Investigación):** Análisis de sitios web de la competencia y definición de requisitos.
+2.  **Semana 2 (Desarrollo):** Codificación de la estructura HTML y estilos visuales. Implementación de validaciones JS.
+3.  **Semana 3 (Refinamiento):** Pruebas de usabilidad, corrección de errores en móviles y documentación final.
+
+## 4. Resultados y Análisis
+El proyecto resultó en una aplicación web funcional que cumple con los estándares básicos de usabilidad web.
+
+**Lo que funciona correctamente:**
+* ✅ La navegación es fluida entre secciones.
+* ✅ El formulario detecta errores (ej. si el usuario intenta poner letras en el campo de teléfono).
+* ✅ El diseño es visualmente limpio y transmite confianza profesional.
+
+**Limitaciones y Áreas de Mejora (Trabajo Futuro):**
+* **Base de Datos:** Actualmente, el formulario simula el envío. El siguiente paso es conectar una base de datos (MySQL/Firebase) para guardar las citas realmente.
+* **Backend:** Se requiere desarrollar un panel de administración para que el dentista vea las solicitudes.
+* **Citas en tiempo real:** Implementar un calendario sincronizado para evitar conflictos de horarios.
+
+## 5. Reflexión Crítica
+Este proyecto me permitió enfrentar el reto de traducir requerimientos de un cliente real a código. Aprendí que **"menos es más"**: intentar abarcar un sistema de login complejo sin los conocimientos de seguridad adecuados hubiera resultado en un proyecto fallido. Al reducir el alcance al MVP (Landing Page), logré entregar un producto de mayor calidad y mejor documentado.
+
+El uso de **Git y GitHub** fue fundamental para mantener el orden en las versiones del código, permitiéndome experimentar con nuevos diseños sin miedo a romper la versión funcional anterior.
+
+---
+
+### Cómo visualizar este proyecto
+1.  Clona este repositorio: `git clone [URL_DE_TU_REPO]`
+2.  Abre el archivo `index.html` en tu navegador web.
+3.  ¡Navega y prueba el formulario!
+
+---
+*Proyecto desarrollado para la evaluación final de la asignatura ITIID - Proyecto NEXO 2025.*
